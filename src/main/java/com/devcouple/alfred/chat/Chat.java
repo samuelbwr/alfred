@@ -5,7 +5,6 @@ import lombok.Data;
 import java.util.List;
 
 @Data
-public class Chat {
+public class Chat{
     private List<Step> steps;
-
 }

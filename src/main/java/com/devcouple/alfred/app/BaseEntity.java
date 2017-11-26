@@ -1,4 +1,4 @@
-package com.devcouple.alfred.base;
+package com.devcouple.alfred.app;
 
 
 import org.springframework.data.annotation.Id;

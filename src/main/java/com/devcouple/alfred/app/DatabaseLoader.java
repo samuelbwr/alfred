@@ -13,16 +13,14 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.greglturnquist.payroll;
+package com.devcouple.alfred.app;
 
+import com.greglturnquist.payroll.Employee;
+import com.greglturnquist.payroll.EmployeeRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
-/**
- * @author Greg Turnquist
- */
-// tag::code[]
 @Component
 public class DatabaseLoader implements CommandLineRunner {
 
@@ -44,4 +42,3 @@ public class DatabaseLoader implements CommandLineRunner {
 		this.repository.save(new Employee("Peregrin", "Took", "pipe smoker"));
 	}
 }
-// end::code[]

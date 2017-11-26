@@ -1,4 +1,4 @@
-package com.devcouple.alfred.product;
+package com.devcouple.alfred.foodcharacteristic;
 
 import lombok.Data;
 
